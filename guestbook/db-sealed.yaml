@@ -1,0 +1,16 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: guestbook-db
+  namespace: default
+spec:
+  encryptedData:
+    password: AgCbbG2+Xe2BA8PexkmPUMW1+x+Ug7jHmn9NqEkua5bjMp0f7daHYeUU9Qg8SMLE7fGVcD7uX/988uCIovzlpspJAuDyZy+LgkM3OvlgHyGnkj9JJxLVJZsMCfhXtQLy9lAxeaPZU6vuScBb1Yjae9LLNHO7+d9AQiGpbga/BJfG/uuc5Wh/WMwB8p49JZ3gnj94Ee3kw3Q7x45YbjwC5r33lMKsIaDjA9fPM0GL3bRv2zmmQ8cO2182jv6awDBxzm8DmW3ha92X5P/6RYVTAKqALPpyowuKiPw0JUpq1QjFbC/uYp66FenwOfnUiRUEU3B9ia9eZStD+odhts7juu1cPUunPBLR4zsZHIWCkLVcY7BQE4+5gLforcIWAkhDUAQr1fcZenxJSO1dsmVTYWI1kppC3URzTgoa5jZCGQIHITjnOah5ty0W9WiVwSt0ofpVzG8XZnnHQK6KZD4b8KIUmj+UX7OR/mpml20XBYCTqHZYZyhtbCw2beMSVZFFaBQUYcYcL5vvRb2+ALaHFpWQA93QL4m7gB2LgrD4VdCrJ6d/CvXt8Gv9lUUbb2boQZaR516PnY+ivbE2S7lPHfsDRFaeKHkDtOuSH3g5Y5OJpkwEfcunlwXXfqjqx0nDV9AdSPw9MVL7bFMPJS3KCweq6DK9lLzIDEL0/h5IkbdliS4gYJLjWjuluxCMDf2+u5X4t7UzyJDh+6dC3HE7re0LPdw=
+  template:
+    metadata:
+      creationTimestamp: null
+      name: guestbook-db
+      namespace: default
+    type: Opaque
